@@ -14,8 +14,8 @@ namespace Client
             foreach (var item in users)
             {
                 Console.WriteLine("Account username: " + item.username);
-                Console.WriteLine( "Account password: " + item.password );
-                }
+                Console.WriteLine("Account password: " + item.password);
+            }
         }
     }
 }

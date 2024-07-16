@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ICafe_Account_Management_API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ICafeAccountManagementData\ICafeAccountManagementData.csproj" />
+    <ProjectReference Include="..\ICafeAccountManagementServices\ICafeAccountManagementServices.csproj" />
+    <ProjectReference Include="..\ICafeAccountModels\ICafeAccountModels.csproj" />
+  </ItemGroup>
+
+</Project>

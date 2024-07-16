@@ -8,7 +8,7 @@ namespace ICafeAccountManagementData
     public class SqlDBData
     {
          string connectionString
-            = "Data Source =LAPTOP-VESUE4DG\\SQLEXPRESS01; Initial Catalog = ICafe Account Management; Integrated Security = True;";
+            = "Server = tcp:52.139.168.198,1433; Database = ICafe Account Management; User Id = sa; Password = LiamPogi123!";
 
         SqlConnection sqlConnection;
         
@@ -16,6 +16,7 @@ namespace ICafeAccountManagementData
         {
             sqlConnection = new SqlConnection(connectionString);
         }
+
 
         public List<User> GetUsers()
         {

@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICafeAccountManagementServi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICafeAccountManagementData", "ICafeAccountManagementData\ICafeAccountManagementData.csproj", "{59AA3D44-AF63-4651-BC8B-8B5E67DE6F92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{1117F12C-681F-47B2-9E40-E970EA269E56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{1117F12C-681F-47B2-9E40-E970EA269E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICafeAccountManagementAPI", "ICafe Account Management API\ICafeAccountManagementAPI.csproj", "{9A9274D9-BBE6-4BBB-8304-B0BA152E248A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1117F12C-681F-47B2-9E40-E970EA269E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1117F12C-681F-47B2-9E40-E970EA269E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1117F12C-681F-47B2-9E40-E970EA269E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9274D9-BBE6-4BBB-8304-B0BA152E248A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9274D9-BBE6-4BBB-8304-B0BA152E248A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9274D9-BBE6-4BBB-8304-B0BA152E248A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9274D9-BBE6-4BBB-8304-B0BA152E248A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
