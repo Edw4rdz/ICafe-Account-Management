@@ -1,4 +1,5 @@
-﻿namespace ICafeAccountModels
+﻿//INTEG FINALS
+namespace ICafeAccountModels
 {
     public class User
     {

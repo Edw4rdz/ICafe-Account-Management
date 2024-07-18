@@ -1,3 +1,4 @@
+//FINALS
 namespace ICafeAccountManagementAPI
 {
     public class User
